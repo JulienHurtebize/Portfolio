@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>C1 — Administrer les réseaux — Portfolio Julien Hurtebize</title>
+<meta name="description" content="Portfolio académique de Julien Hurtebize, BUT 3 R&T Cybersécurité — C1 — Administrer les réseaux" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="read-progress" aria-hidden="true"></div>
+
+<div class="mobile-bar">
+  <button class="menu-toggle" aria-label="Menu">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+  </button>
+  <span class="mobile-bar-title">C1 — Administrer les réseaux</span>
+  <span style="width:36px"></span>
+</div>
+
+<div class="layout">
+<aside class="sidebar" aria-label="Sommaire">
+  <div class="brand">
+    <p class="brand-eyebrow">Portfolio</p>
+    <h1 class="brand-name">Julien Hurtebize</h1>
+  </div>
+  <nav class="toc">
+    <span class="toc-section-label">PRÉSENTATION</span>
+    <a class="toc-item" href="index.html"><span>Accueil</span></a>
+    <a class="toc-item" href="parcours.html"><span>Parcours</span></a>
+    <a class="toc-item" href="referentiel.html"><span>Référentiel RNCP</span></a>
+    <a class="toc-item" href="matrice.html"><span>Matrice de correspondance</span></a>
+    <span class="toc-section-label">COMPÉTENCES CŒUR MÉTIER</span>
+    <a class="toc-item is-active" href="c1.html"><span class="toc-code">C1</span><span>Administrer</span></a>
+    <a class="toc-item" href="c2.html"><span class="toc-code">C2</span><span>Connecter</span></a>
+    <a class="toc-item" href="c3.html"><span class="toc-code">C3</span><span>Créer outils</span></a>
+    <a class="toc-item" href="c4.html"><span class="toc-code">C4</span><span>SI sécurisé</span></a>
+    <a class="toc-item" href="c5.html"><span class="toc-code">C5</span><span>Surveiller</span></a>
+    <span class="toc-section-label">AUTRES CHAPITRES</span>
+    <a class="toc-item" href="transverses.html"><span>Compétences transverses</span></a>
+    <a class="toc-item" href="avenir.html"><span>Projet professionnel</span></a>
+    <a class="toc-item" href="annexes.html"><span>Annexes</span></a>
+  </nav>
+  <div class="sidebar-footer">
+    <button class="sb-btn theme-toggle" aria-label="Thème">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/><line x1="4.93" y1="4.93" x2="6.34" y2="6.34"/><line x1="17.66" y1="17.66" x2="19.07" y2="19.07"/><line x1="2" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22" y2="12"/></svg>
+      <span>Mode jour / nuit</span>
+    </button>
+    <button class="sb-btn print-button" aria-label="Imprimer">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+      <span>Imprimer / PDF</span>
+    </button>
+  </div>
+</aside>
+
+<main class="main">
+<div class="app-bar">
+  <div class="chapter-nav" role="group" aria-label="Navigation chapitres">
+    <a class="cn-prev" href="matrice.html" aria-label="Chapitre précédent" title="Chapitre précédent">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+    </a>
+    <span class="counter"><span class="cn-cur">5</span><span style="opacity:0.4">/</span><span class="cn-total">12</span></span>
+    <a class="cn-next" href="c2.html" aria-label="Chapitre suivant" title="Chapitre suivant">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+    </a>
+  </div>
+  <div class="progress-strip" data-current="4" data-total="12"></div>
+  <label class="app-search">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <input type="search" placeholder="Rechercher dans cette page…" aria-label="Rechercher" autocomplete="off" />
+    <kbd>/</kbd>
+  </label>
+</div>
+<section id="c1">
+      <header class="section-header">
+        <p class="section-numeral">Compétence 1 — bloc BC01</p>
+        <h1 class="section-title">Administrer les <em>réseaux</em></h1>
+        <p class="section-lede">Concevoir et déployer l'infrastructure réseau d'une organisation, du plan d'adressage jusqu'à la haute disponibilité et la sécurité.</p>
+      </header>
+
+      <div class="quote-rncp">
+        <span class="quote-label">Référentiel — BC01</span>
+        <p>Administrer les réseaux et l'Internet en choisissant les solutions adaptées, en respectant les principes de la sécurité informatique, en utilisant une approche rigoureuse pour la résolution des dysfonctionnements et en assurant une veille technologique.</p>
+      </div>
+
+      <div class="ac-prog">
+        <h4>Progression sur les trois niveaux</h4>
+        <ul>
+          <li><span class="lvl">Niveau 1</span><span>AC11.01 — Maquetter un réseau pour une petite structure</span><span class="badge b-acquis">Acquis</span></li>
+          <li><span class="lvl">Niveau 2</span><span>AC21.02 — Mettre en service un système de routage et de commutation</span><span class="badge b-acquis">Acquis</span></li>
+          <li><span class="lvl">Niveau 3</span><span>AC31.01 — Concevoir un projet de réseau d'entreprise (haute dispo, QoS, sécurité)</span><span class="badge b-encours">En cours BUT3</span></li>
+          <li><span class="lvl">Niveau 3</span><span>AC31.02 — Déployer et administrer un réseau d'entreprise</span><span class="badge b-acquis">Acquis</span></li>
+          <li><span class="lvl">Niveau 3</span><span>AC31.03 — Documenter et gérer un projet de réseau</span><span class="badge b-acquis">Acquis</span></li>
+        </ul>
+      </div>
+
+      <h2>Toutes les matières contributives</h2>
+      <p>Liste exhaustive des <strong>46 ressources et SAÉ</strong> du parcours qui alimentent le bloc BC01, avec leurs notes officielles. Cette table constitue la preuve formelle de la contribution académique au bloc ; les apprentissages critiques de niveau 3 développés plus bas sont l'expression de cette accumulation.</p>
+      <div class="table-wrap">
+        <table class="matieres-bloc">
+<thead><tr><th>Code</th><th>Intitulé</th><th>Sem.</th><th>Note</th></tr></thead><tbody>
+<tr>
+<td class="code-cell">R1.01</td>
+<td>Initiation aux réseaux informatiques</td>
+<td class="center">S1</td>
+<td class="note-cell note-weak">7,60</td>
+</tr>
+<tr>
+<td class="code-cell">R1.02</td>
+<td>Principes et architecture des réseaux</td>
+<td class="center">S1</td>
+<td class="note-cell note-weak">8,80</td>
+</tr>
+<tr>
+<td class="code-cell">R1.03</td>
+<td>Réseaux locaux et équipements actifs</td>
+<td class="center">S1</td>
+<td class="note-cell note-weak">8,67</td>
+</tr>
+<tr>
+<td class="code-cell">R1.04</td>
+<td>Fondamentaux de l'électronique analogique</td>
+<td class="center">S1</td>
+<td class="note-cell note-weak">9,18</td>
+</tr>
+<tr>
+<td class="code-cell">R1.06</td>
+<td>Architecture des systèmes numériques et informatiques</td>
+<td class="center">S1</td>
+<td class="note-cell note-weak">7,00</td>
+</tr>
+<tr>
+<td class="code-cell">R1.08</td>
+<td>Bases des systèmes d'exploitation</td>
+<td class="center">S1</td>
+<td class="note-cell note-mid">13,70</td>
+</tr>
+<tr>
+<td class="code-cell">R1.10</td>
+<td>Anglais général de communication</td>
+<td class="center">S1</td>
+<td class="note-cell note-strong">14,30</td>
+</tr>
+<tr>
+<td class="code-cell">R1.11</td>
+<td>Expression-Culture-Communication 1</td>
+<td class="center">S1</td>
+<td class="note-cell note-strong">15,00</td>
+</tr>
+<tr>
+<td class="code-cell">R1.12</td>
+<td>Projet Personnel et Professionnel S1</td>
+<td class="center">S1</td>
+<td class="note-cell note-strong">14,00</td>
+</tr>
+<tr>
+<td class="code-cell">R1.13</td>
+<td>Mathématiques du signal</td>
+<td class="center">S1</td>
+<td class="note-cell note-mid">10,67</td>
+</tr>
+<tr>
+<td class="code-cell">R1.14</td>
+<td>Mathématiques des transmissions</td>
+<td class="center">S1</td>
+<td class="note-cell note-mid">12,50</td>
+</tr>
+<tr>
+<td class="code-cell">R1.15</td>
+<td>Gestion de projet</td>
+<td class="center">S1</td>
+<td class="note-cell note-mid">11,88</td>
+</tr>
+<tr>
+<td class="code-cell">SAÉ 12</td>
+<td>S'initier aux réseaux informatiques</td>
+<td class="center">S1</td>
+<td class="note-cell note-strong">17,67</td>
+</tr>
+<tr>
+<td class="code-cell">R2.01</td>
+<td>Technologie de l'Internet</td>
+<td class="center">S2</td>
+<td class="note-cell note-strong">15,75</td>
+</tr>
+<tr>
+<td class="code-cell">R2.02</td>
+<td>Administration système</td>
+<td class="center">S2</td>
+<td class="note-cell note-mid">11,12</td>
+</tr>
+<tr>
+<td class="code-cell">R2.03</td>
+<td>Bases des services réseaux</td>
+<td class="center">S2</td>
+<td class="note-cell note-mid">10,00</td>
+</tr>
+<tr>
+<td class="code-cell">R2.04</td>
+<td>Initiation à la téléphonie d'entreprise</td>
+<td class="center">S2</td>
+<td class="note-cell note-weak">5,65</td>
+</tr>
+<tr>
+<td class="code-cell">R2.05</td>
+<td>Signaux et systèmes pour les transmissions</td>
+<td class="center">S2</td>
+<td class="note-cell note-weak">7,11</td>
+</tr>
+<tr>
+<td class="code-cell">R2.06</td>
+<td>Numérisation de l'information</td>
+<td class="center">S2</td>
+<td class="note-cell note-weak">6,00</td>
+</tr>
+<tr>
+<td class="code-cell">R2.07</td>
+<td>Sources de données</td>
+<td class="center">S2</td>
+<td class="note-cell note-weak">6,95</td>
+</tr>
+<tr>
+<td class="code-cell">R2.09</td>
+<td>Initiation au développement Web</td>
+<td class="center">S2</td>
+<td class="note-cell note-strong">14,25</td>
+</tr>
+<tr>
+<td class="code-cell">R2.10</td>
+<td>Anglais de communication et anglais technique</td>
+<td class="center">S2</td>
+<td class="note-cell note-strong">14,57</td>
+</tr>
+<tr>
+<td class="code-cell">R2.11</td>
+<td>Expression-Culture-Communication 2</td>
+<td class="center">S2</td>
+<td class="note-cell note-strong">15,75</td>
+</tr>
+<tr>
+<td class="code-cell">R2.12</td>
+<td>Projet Personnel et Professionnel : formalisation</td>
+<td class="center">S2</td>
+<td class="note-cell note-strong">17,50</td>
+</tr>
+<tr>
+<td class="code-cell">R2.13</td>
+<td>Mathématiques des systèmes numériques</td>
+<td class="center">S2</td>
+<td class="note-cell note-weak">9,21</td>
+</tr>
+<tr>
+<td class="code-cell">R2.14</td>
+<td>Analyse mathématique des signaux</td>
+<td class="center">S2</td>
+<td class="note-cell note-weak">6,50</td>
+</tr>
+<tr>
+<td class="code-cell">SAÉ 21</td>
+<td>Construire un réseau informatique pour une petite structure</td>
+<td class="center">S2</td>
+<td class="note-cell note-mid">13,45</td>
+</tr>
+<tr>
+<td class="code-cell">SAÉ 24</td>
+<td>Projet intégratif de S2</td>
+<td class="center">S2</td>
+<td class="note-cell note-weak">9,95</td>
+</tr>
+<tr>
+<td class="code-cell">R3.01</td>
+<td>Réseaux de campus</td>
+<td class="center">S3</td>
+<td class="note-cell note-weak">5,62</td>
+</tr>
+<tr>
+<td class="code-cell">R3.02</td>
+<td>Réseaux opérateurs</td>
+<td class="center">S3</td>
+<td class="note-cell note-mid">10,75</td>
+</tr>
+<tr>
+<td class="code-cell">R3.03</td>
+<td>Services réseaux avancés</td>
+<td class="center">S3</td>
+<td class="note-cell note-weak">8,50</td>
+</tr>
+<tr>
+<td class="code-cell">R3.04</td>
+<td>Services d'annuaires</td>
+<td class="center">S3</td>
+<td class="note-cell note-mid">10,00</td>
+</tr>
+<tr>
+<td class="code-cell">R3.07</td>
+<td>Réseaux d'accès</td>
+<td class="center">S3</td>
+<td class="note-cell note-mid">11,25</td>
+</tr>
+<tr>
+<td class="code-cell">R3.11</td>
+<td>Anglais professionnel 1</td>
+<td class="center">S3</td>
+<td class="note-cell note-strong">15,28</td>
+</tr>
+<tr>
+<td class="code-cell">SAÉ 3.Cyber.03</td>
+<td>Concevoir un réseau informatique sécurisé multi-sites</td>
+<td class="center">S3</td>
+<td class="note-cell note-weak">8,50</td>
+</tr>
+<tr>
+<td class="code-cell">R4.01</td>
+<td>Infrastructures de sécurité</td>
+<td class="center">S4</td>
+<td class="note-cell note-mid">10,50</td>
+</tr>
+<tr>
+<td class="code-cell">R4.05</td>
+<td>Automatisation des tâches d'administration</td>
+<td class="center">S4</td>
+<td class="note-cell note-strong">14,50</td>
+</tr>
+<tr>
+<td class="code-cell">R4.Cyber.09</td>
+<td>Sécurité des réseaux LAN</td>
+<td class="center">S4</td>
+<td class="note-cell note-mid">12,50</td>
+</tr>
+<tr>
+<td class="code-cell">SAÉ 4.Cyber.01</td>
+<td>Sécuriser un système d'information</td>
+<td class="center">S4</td>
+<td class="note-cell note-mid">12,00</td>
+</tr>
+<tr>
+<td class="code-cell">Stage</td>
+<td>Stage de fin de BUT2 — Grid Network</td>
+<td class="center">S4</td>
+<td class="note-cell note-strong">17,27</td>
+</tr>
+<tr>
+<td class="code-cell">R5.01</td>
+<td>WiFi avancé</td>
+<td class="center">S5</td>
+<td class="note-cell note-weak">8,38</td>
+</tr>
+<tr>
+<td class="code-cell">R5.02</td>
+<td>Supervision des réseaux</td>
+<td class="center">S5</td>
+<td class="note-cell note-mid">11,25</td>
+</tr>
+<tr>
+<td class="code-cell">R5.Cyber.09</td>
+<td>Architectures sécurisées</td>
+<td class="center">S5</td>
+<td class="note-cell note-pending">à venir</td>
+</tr>
+<tr>
+<td class="code-cell">SAÉ 5.01</td>
+<td>Concevoir, réaliser et présenter une solution technique</td>
+<td class="center">S5</td>
+<td class="note-cell note-strong">19,00</td>
+</tr>
+<tr>
+<td class="code-cell">SAÉ 5.Cyber.03</td>
+<td>Sécurisation et supervision avancées</td>
+<td class="center">S5</td>
+<td class="note-cell note-pending">à venir</td>
+</tr>
+<tr>
+<td class="code-cell">SAÉ 5.Entreprise</td>
+<td>Activité en entreprise (alternance Grid Network)</td>
+<td class="center">S5</td>
+<td class="note-cell note-strong">16,73</td>
+</tr>
+</tbody>
+        </table>
+      </div>
+
+
+      <article class="ac-card">
+        <header class="ac-header">
+          <span class="ac-code">AC31.01</span>
+          <p class="ac-title">Concevoir un projet de réseau informatique d'entreprise en intégrant haute disponibilité, QoS et sécurité.</p>
+          <span class="ac-level">Niveau 3</span>
+        </header>
+        <dl class="six-q">
+          <div><dt>Ce que j'ai fait</dt><dd>Conception en binôme, dans la SAÉ 5.01 (note 19/20), d'une plateforme de TP conteneurisée déployée sur cluster <strong>Kubernetes k3s</strong> avec Docker, exposée par le reverse proxy <strong>Traefik</strong>. Neuf environnements isolés (web, BDD, cybersécurité), bureau distant noVNC accessible en HTTPS depuis n'importe quel navigateur, panneau d'administration Flask. Sécurité conçue dès le départ : Pod Security Standards <em>restricted</em>, NetworkPolicy <code>deny-all</code>, RBAC, utilisateur non-root partout, BasicAuth Traefik et TLS sur 15 IngressRoutes.</dd></div>
+          <div><dt>Pourquoi</dt><dd>L'IUT cherchait à uniformiser l'environnement des TP : les étudiants perdaient du temps à installer localement les outils, et certains TP n'étaient pas reproductibles d'un poste à l'autre. La plateforme devait permettre à un enseignant de provisionner un environnement identique pour tous, accessible en HTTPS, avec restauration en un clic. La haute disponibilité applicative et la sécurité par cloisonnement n'étaient pas des options.</dd></div>
+          <div><dt>Comment</dt><dd>Cadrage formalisé avec l'enseignant porteur, choix d'architecture argumentés (k3s pour la légèreté, Traefik pour les middlewares), trois familles d'images Docker. Industrialisation : registry privée, manifests Kubernetes versionnés sous Git, namespaces isolés avec quotas. Documentation technique de 86 pages couvrant architecture, déploiement et maintenance.</dd></div>
+          <div><dt>Mes difficultés</dt><dd>Trois principales. La courbe d'apprentissage de Kubernetes (Service vs Deployment vs StatefulSet vs Ingress vs NetworkPolicy demande du temps). L'exposition WebSocket via Traefik pour noVNC, qui a nécessité d'analyser les en-têtes HTTP et de configurer correctement les middlewares. L'équilibre entre cloisonnement et fonctionnalité sur les NetworkPolicy : trop strictes, elles cassent tout ; trop permissives, elles n'ont plus d'intérêt.</dd></div>
+          <div><dt>Ce que j'en ai appris</dt><dd>Une architecture sécurisée ne se rajoute pas après coup : la sécurité par défaut est un choix d'architecture initiale. La documentation est une compétence technique à part entière, sans laquelle un projet meurt avec ses auteurs. Et l'observabilité (logs, métriques, panneau d'admin) doit se concevoir en parallèle du déploiement, pas après.</dd></div>
+          <div><dt>Ce que je ferais autrement</dt><dd>Mettre en place un GitOps réel (ArgoCD ou Flux) plutôt que des <code>kubectl apply</code> manuels. Industrialiser la build des images via une CI plutôt que par construction locale. Ajouter un système de quotas par utilisateur dans le panneau d'admin pour empêcher la monopolisation d'environnements.</dd></div>
+        </dl>
+        <div class="trace">
+          <figure>
+            <img src="images/trace-tp-platform.png" alt="Vue étudiant de la plateforme TP" />
+            <figcaption><strong>Trace 01 — Vue étudiant de la plateforme</strong>Page d'accueil servie en HTTPS sur <code>desktop.tp.local</code>, neuf environnements regroupés en trois colonnes (Web, BDD, Cyber). La séparation visuelle reflète le cloisonnement réseau effectif par namespace Kubernetes.</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <div class="synthesis">
+        <p>Mon rapport au BC01 a évolué de façon significative entre le S3 et le S5. Les ressources théoriques du S3 (R3.01 Réseaux de campus à 5,62 ; R3.03 Services réseaux avancés à 8,50) m'ont fragilisé : la difficulté venait d'une approche trop abstraite. La SAÉ 5.01 à 19/20 marque le point d'aboutissement : conception simultanée d'une architecture réseau, d'un cloisonnement par namespace et d'une exposition contrôlée par reverse proxy. La note de 8,38 en R5.01 WiFi avancé reste un axe de consolidation, particulièrement utile pour des déploiements PME où le WiFi performant est souvent le premier vecteur d'expérience utilisateur.</p>
+      </div>
+    </section>
+<nav class="pagenav" aria-label="Navigation entre chapitres">
+  <a class="pagenav-link pagenav-prev" href="matrice.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+    <span>
+      <span class="pagenav-label">Précédent</span>
+      <span class="pagenav-title">Matrice de correspondance</span>
+    </span>
+  </a>
+  <a class="pagenav-link pagenav-next" href="c2.html">
+    <span>
+      <span class="pagenav-label">Suivant</span>
+      <span class="pagenav-title">C2 · Connecter</span>
+    </span>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+  </a>
+</nav>
+</main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Parcours — Portfolio Julien Hurtebize</title>
+<meta name="description" content="Portfolio académique de Julien Hurtebize, BUT 3 R&T Cybersécurité — Parcours" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="read-progress" aria-hidden="true"></div>
+
+<div class="mobile-bar">
+  <button class="menu-toggle" aria-label="Menu">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+  </button>
+  <span class="mobile-bar-title">Parcours</span>
+  <span style="width:36px"></span>
+</div>
+
+<div class="layout">
+<aside class="sidebar" aria-label="Sommaire">
+  <div class="brand">
+    <p class="brand-eyebrow">Portfolio</p>
+    <h1 class="brand-name">Julien Hurtebize</h1>
+  </div>
+  <nav class="toc">
+    <span class="toc-section-label">PRÉSENTATION</span>
+    <a class="toc-item" href="index.html"><span>Accueil</span></a>
+    <a class="toc-item is-active" href="parcours.html"><span>Parcours</span></a>
+    <a class="toc-item" href="referentiel.html"><span>Référentiel RNCP</span></a>
+    <a class="toc-item" href="matrice.html"><span>Matrice de correspondance</span></a>
+    <span class="toc-section-label">COMPÉTENCES CŒUR MÉTIER</span>
+    <a class="toc-item" href="c1.html"><span class="toc-code">C1</span><span>Administrer</span></a>
+    <a class="toc-item" href="c2.html"><span class="toc-code">C2</span><span>Connecter</span></a>
+    <a class="toc-item" href="c3.html"><span class="toc-code">C3</span><span>Créer outils</span></a>
+    <a class="toc-item" href="c4.html"><span class="toc-code">C4</span><span>SI sécurisé</span></a>
+    <a class="toc-item" href="c5.html"><span class="toc-code">C5</span><span>Surveiller</span></a>
+    <span class="toc-section-label">AUTRES CHAPITRES</span>
+    <a class="toc-item" href="transverses.html"><span>Compétences transverses</span></a>
+    <a class="toc-item" href="avenir.html"><span>Projet professionnel</span></a>
+    <a class="toc-item" href="annexes.html"><span>Annexes</span></a>
+  </nav>
+  <div class="sidebar-footer">
+    <button class="sb-btn theme-toggle" aria-label="Thème">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/><line x1="4.93" y1="4.93" x2="6.34" y2="6.34"/><line x1="17.66" y1="17.66" x2="19.07" y2="19.07"/><line x1="2" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22" y2="12"/></svg>
+      <span>Mode jour / nuit</span>
+    </button>
+    <button class="sb-btn print-button" aria-label="Imprimer">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+      <span>Imprimer / PDF</span>
+    </button>
+  </div>
+</aside>
+
+<main class="main">
+<div class="app-bar">
+  <div class="chapter-nav" role="group" aria-label="Navigation chapitres">
+    <a class="cn-prev" href="index.html" aria-label="Chapitre précédent" title="Chapitre précédent">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+    </a>
+    <span class="counter"><span class="cn-cur">2</span><span style="opacity:0.4">/</span><span class="cn-total">12</span></span>
+    <a class="cn-next" href="referentiel.html" aria-label="Chapitre suivant" title="Chapitre suivant">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+    </a>
+  </div>
+  <div class="progress-strip" data-current="1" data-total="12"></div>
+  <label class="app-search">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <input type="search" placeholder="Rechercher dans cette page…" aria-label="Rechercher" autocomplete="off" />
+    <kbd>/</kbd>
+  </label>
+</div>
+<section id="parcours">
+      <header class="section-header">
+        <p class="section-numeral">Parcours</p>
+        <h1 class="section-title">Mon <em>parcours</em></h1>
+        <p class="section-lede">Un double cursus en sciences humaines puis en réseaux et télécoms, des expériences professionnelles complémentaires, et une trajectoire ascendante.</p>
+      </header>
+
+      <h2>Présentation</h2>
+      <p>Je suis étudiant en troisième année de BUT R&amp;T parcours Cybersécurité à l'IUT de Béthune. Mon parcours présente une singularité : avant cette réorientation, j'ai validé une <strong>Licence d'Études Arabes à l'Université Rennes 2</strong> avec mention Assez Bien. Ce double cursus a façonné une manière de travailler qui combine la rigueur d'un technicien et la sensibilité aux dimensions humaines, organisationnelles et culturelles d'un problème.</p>
+      <p>Depuis septembre 2025, je suis en alternance chez <strong>Grid Network</strong>, aménageur de sites de radiocommunication multi-opérateurs basé à Vendin-le-Vieil, comme apprenti coordinateur travaux. Depuis avril 2024, j'occupe en parallèle un poste de <strong>veilleur de nuit au Crous de Lille</strong>, dans une résidence de 223 résidents.</p>
+
+      <h2>Parcours académique</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Période</th><th>Diplôme</th><th>Établissement</th><th>Résultat</th></tr></thead>
+          <tbody>
+            <tr><td>2023 — 2026</td><td>BUT R&amp;T parcours Cybersécurité</td><td>IUT de Béthune, Université d'Artois</td><td>En cours, BUT3</td></tr>
+            <tr><td>2020 — 2023</td><td>Licence LLCER, Études Arabes</td><td>Université Rennes 2</td><td>180 ECTS, mention Assez Bien</td></tr>
+            <tr><td>2018 — 2020</td><td>Baccalauréat ES</td><td>Lycée P. et M. Curie, Menton</td><td>Mention Bien, 14,02/20</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Évolution des résultats au BUT</h3>
+      <p>Les bulletins ScoDoc consolidés montrent une progression nette des moyennes d'unité d'enseignement à partir du semestre 4. Le S5, premier semestre en alternance, atteint le meilleur niveau du parcours.</p>
+      <div class="stats">
+        <div class="stat"><p class="stat-label">UE S1 Admin réseaux</p><p class="stat-value">13,01</p></div>
+        <div class="stat"><p class="stat-label">UE S2 Connecter</p><p class="stat-value">10,21</p></div>
+        <div class="stat"><p class="stat-label">UE S3 Créer outils</p><p class="stat-value">14,38</p></div>
+        <div class="stat"><p class="stat-label">UE S4 SI sécurisé</p><p class="stat-value">14,33</p></div>
+        <div class="stat"><p class="stat-label">UE S5 Surveiller</p><p class="stat-value highlight">15,42</p></div>
+      </div>
+      <p>Trois SAÉ ont obtenu des notes supérieures à 19/20 sur les cinq semestres : <strong>SAÉ14 « Se présenter sur Internet »</strong> en S1 (20/20), <strong>SAÉ23 « Mettre en place une solution informatique »</strong> en S2 (19/20), <strong>SAÉ 3.Cyber.04 « Découvrir le pentesting »</strong> en S3 (19/20), et <strong>SAÉ 5.01 « Concevoir une solution technique »</strong> en S5 (19/20).</p>
+
+
+      <h2>Détail des matières étudiées</h2>
+      <p>L'ensemble des ressources suivies sur les cinq semestres du BUT, avec les notes officielles issues des bulletins ScoDoc de l'IUT de Béthune. Les notes en or signalent un résultat supérieur à 14/20, en bordeaux les notes inférieures à 10/20, en bleu les notes intermédiaires.</p>
+
+      <h3>Semestre 1 — 2023/2024</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Code</th><th>Intitulé</th><th>Note</th></tr></thead>
+          <tbody>
+            <tr><td class="code-cell">R1.01</td><td>Initiation aux réseaux informatiques</td><td class="note-cell note-weak">7,60</td></tr>
+            <tr><td class="code-cell">R1.02</td><td>Principes et architecture des réseaux</td><td class="note-cell note-weak">8,80</td></tr>
+            <tr><td class="code-cell">R1.03</td><td>Réseaux locaux et équipements actifs</td><td class="note-cell note-weak">8,67</td></tr>
+            <tr><td class="code-cell">R1.04</td><td>Fondamentaux de l'électronique analogique</td><td class="note-cell note-weak">9,18</td></tr>
+            <tr><td class="code-cell">R1.05</td><td>Supports de transmission pour les réseaux locaux</td><td class="note-cell note-weak">6,50</td></tr>
+            <tr><td class="code-cell">R1.06</td><td>Architecture des systèmes numériques et informatiques</td><td class="note-cell note-weak">7,00</td></tr>
+            <tr><td class="code-cell">R1.07</td><td>Fondamentaux de la programmation</td><td class="note-cell note-mid">13,92</td></tr>
+            <tr><td class="code-cell">R1.08</td><td>Bases des systèmes d'exploitation</td><td class="note-cell note-mid">13,70</td></tr>
+            <tr><td class="code-cell">R1.09</td><td>Introduction aux technologies Web</td><td class="note-cell note-mid">14,00</td></tr>
+            <tr><td class="code-cell">R1.10</td><td>Anglais général de communication et initiation au vocabulaire technique</td><td class="note-cell note-mid">14,30</td></tr>
+            <tr><td class="code-cell">R1.11</td><td>Expression-Culture-Communication 1</td><td class="note-cell note-strong">15,00</td></tr>
+            <tr><td class="code-cell">R1.12</td><td>Projet Personnel et Professionnel S1</td><td class="note-cell note-mid">14,00</td></tr>
+            <tr><td class="code-cell">R1.13</td><td>Mathématiques du signal</td><td class="note-cell note-mid">10,67</td></tr>
+            <tr><td class="code-cell">R1.14</td><td>Mathématiques des transmissions</td><td class="note-cell note-mid">12,50</td></tr>
+            <tr><td class="code-cell">R1.15</td><td>Gestion de projet</td><td class="note-cell note-mid">11,88</td></tr>
+            <tr><td class="code-cell">SAÉ 11</td><td>Sensibilisation à l'hygiène informatique et à la cybersécurité</td><td class="note-cell note-mid">14,72</td></tr>
+            <tr><td class="code-cell">SAÉ 12</td><td>S'initier aux réseaux informatiques</td><td class="note-cell note-strong">17,67</td></tr>
+            <tr><td class="code-cell">SAÉ 13</td><td>Découvrir un dispositif de transmission</td><td class="note-cell note-mid">12,00</td></tr>
+            <tr><td class="code-cell">SAÉ 14</td><td>Se présenter sur Internet</td><td class="note-cell note-strong">20,00</td></tr>
+            <tr><td class="code-cell">SAÉ 15</td><td>Traitement de données</td><td class="note-cell note-strong">16,00</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Semestre 2 — 2023/2024</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Code</th><th>Intitulé</th><th>Note</th></tr></thead>
+          <tbody>
+            <tr><td class="code-cell">R2.01</td><td>Technologie de l'Internet</td><td class="note-cell note-strong">15,75</td></tr>
+            <tr><td class="code-cell">R2.02</td><td>Administration système</td><td class="note-cell note-mid">11,12</td></tr>
+            <tr><td class="code-cell">R2.03</td><td>Bases des services réseaux</td><td class="note-cell note-mid">10,00</td></tr>
+            <tr><td class="code-cell">R2.04</td><td>Initiation à la téléphonie d'entreprise</td><td class="note-cell note-weak">5,65</td></tr>
+            <tr><td class="code-cell">R2.05</td><td>Signaux et systèmes pour les transmissions</td><td class="note-cell note-weak">7,11</td></tr>
+            <tr><td class="code-cell">R2.06</td><td>Numérisation de l'information</td><td class="note-cell note-weak">6,00</td></tr>
+            <tr><td class="code-cell">R2.07</td><td>Sources de données</td><td class="note-cell note-weak">6,95</td></tr>
+            <tr><td class="code-cell">R2.08</td><td>Analyse et traitement de données structurées</td><td class="note-cell note-strong">16,00</td></tr>
+            <tr><td class="code-cell">R2.09</td><td>Initiation au développement Web</td><td class="note-cell note-mid">14,25</td></tr>
+            <tr><td class="code-cell">R2.10</td><td>Anglais de communication et anglais technique</td><td class="note-cell note-mid">14,57</td></tr>
+            <tr><td class="code-cell">R2.11</td><td>Expression-Culture-Communication Professionnelles 2</td><td class="note-cell note-strong">15,75</td></tr>
+            <tr><td class="code-cell">R2.12</td><td>Projet Personnel et Professionnel : formalisation du projet</td><td class="note-cell note-strong">17,50</td></tr>
+            <tr><td class="code-cell">R2.13</td><td>Mathématiques des systèmes numériques</td><td class="note-cell note-weak">9,21</td></tr>
+            <tr><td class="code-cell">R2.14</td><td>Analyse mathématique des signaux</td><td class="note-cell note-weak">6,50</td></tr>
+            <tr><td class="code-cell">SAÉ 21</td><td>Construire un réseau informatique pour une petite structure</td><td class="note-cell note-mid">13,45</td></tr>
+            <tr><td class="code-cell">SAÉ 22</td><td>Mesurer et caractériser un signal ou un système</td><td class="note-cell note-mid">11,85</td></tr>
+            <tr><td class="code-cell">SAÉ 23</td><td>Mettre en place une solution informatique pour l'entreprise</td><td class="note-cell note-strong">19,00</td></tr>
+            <tr><td class="code-cell">SAÉ 24</td><td>Projet intégratif de S2</td><td class="note-cell note-weak">9,95</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Semestre 3 — 2024/2025 · Parcours Cybersécurité</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Code</th><th>Intitulé</th><th>Note</th></tr></thead>
+          <tbody>
+            <tr><td class="code-cell">R3.01</td><td>Réseaux de campus</td><td class="note-cell note-weak">5,62</td></tr>
+            <tr><td class="code-cell">R3.02</td><td>Réseaux opérateurs</td><td class="note-cell note-mid">10,75</td></tr>
+            <tr><td class="code-cell">R3.03</td><td>Services réseaux avancés</td><td class="note-cell note-weak">8,50</td></tr>
+            <tr><td class="code-cell">R3.04</td><td>Services d'annuaires</td><td class="note-cell note-mid">10,00</td></tr>
+            <tr><td class="code-cell">R3.05</td><td>Chaînes de transmissions numériques</td><td class="note-cell note-weak">9,40</td></tr>
+            <tr><td class="code-cell">R3.06</td><td>Fibres optiques et propagation</td><td class="note-cell note-weak">4,20</td></tr>
+            <tr><td class="code-cell">R3.07</td><td>Réseaux d'accès</td><td class="note-cell note-mid">11,25</td></tr>
+            <tr><td class="code-cell">R3.08</td><td>Consolidation de la programmation</td><td class="note-cell note-strong">17,50</td></tr>
+            <tr><td class="code-cell">R3.09</td><td>Programmation événementielle</td><td class="note-cell note-strong">20,00</td></tr>
+            <tr><td class="code-cell">R3.10</td><td>Gestion d'un système de bases de données</td><td class="note-cell note-weak">5,00</td></tr>
+            <tr><td class="code-cell">R3.11</td><td>Anglais professionnel 1</td><td class="note-cell note-strong">15,28</td></tr>
+            <tr><td class="code-cell">R3.12</td><td>Expression-Communication : Savoir collaborer</td><td class="note-cell note-mid">11,00</td></tr>
+            <tr><td class="code-cell">R3.13</td><td>Projet Personnel et Professionnel</td><td class="note-cell note-strong">15,33</td></tr>
+            <tr><td class="code-cell">R3.14</td><td>Analyse de Fourier</td><td class="note-cell note-weak">6,80</td></tr>
+            <tr><td class="code-cell">R3.15</td><td>Gestion de projet 2 : méthodes de gestion</td><td class="note-cell note-mid">12,25</td></tr>
+            <tr><td class="code-cell">R3.Cyber.16</td><td>Méthodologie du pentesting</td><td class="note-cell note-strong">17,00</td></tr>
+            <tr><td class="code-cell">SAÉ 3.01</td><td>Mettre en œuvre un système de transmission</td><td class="note-cell note-mid">12,50</td></tr>
+            <tr><td class="code-cell">SAÉ 3.02</td><td>Développer des applications communicantes</td><td class="note-cell note-mid">14,00</td></tr>
+            <tr><td class="code-cell">SAÉ 3.Cyber.03</td><td>Concevoir un réseau informatique sécurisé multi-sites</td><td class="note-cell note-weak">8,50</td></tr>
+            <tr><td class="code-cell">SAÉ 3.Cyber.04</td><td>Découvrir le pentesting</td><td class="note-cell note-strong">19,00</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Semestre 4 — 2024/2025 · Parcours Cybersécurité</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Code</th><th>Intitulé</th><th>Note</th></tr></thead>
+          <tbody>
+            <tr><td class="code-cell">R4.01</td><td>Infrastructures de sécurité</td><td class="note-cell note-mid">10,50</td></tr>
+            <tr><td class="code-cell">R4.02</td><td>Transmissions avancées</td><td class="note-cell note-weak">5,67</td></tr>
+            <tr><td class="code-cell">R4.03</td><td>Physique des télécoms</td><td class="note-cell note-weak">7,25</td></tr>
+            <tr><td class="code-cell">R4.04</td><td>Réseaux cellulaires</td><td class="note-cell note-weak">5,75</td></tr>
+            <tr><td class="code-cell">R4.05</td><td>Automatisation des tâches d'administration</td><td class="note-cell note-mid">14,50</td></tr>
+            <tr><td class="code-cell">R4.06</td><td>Anglais professionnel 2</td><td class="note-cell note-strong">17,00</td></tr>
+            <tr><td class="code-cell">R4.07</td><td>Expression-Culture-Communication : Préparer l'insertion pro</td><td class="note-cell note-mid">13,00</td></tr>
+            <tr><td class="code-cell">R4.08</td><td>Projet Personnel et Professionnel</td><td class="note-cell note-mid">13,00</td></tr>
+            <tr><td class="code-cell">R4.Cyber.09</td><td>Sécurité des réseaux LAN</td><td class="note-cell note-mid">12,50</td></tr>
+            <tr><td class="code-cell">R4.Cyber.10</td><td>Cryptographie</td><td class="note-cell note-weak">8,25</td></tr>
+            <tr><td class="code-cell">R4.Cyber.11</td><td>Sécurisation de services réseaux</td><td class="note-cell note-strong">19,50</td></tr>
+            <tr><td class="code-cell">SAÉ 4.Cyber.01</td><td>Sécuriser un système d'information</td><td class="note-cell note-mid">12,00</td></tr>
+            <tr><td class="code-cell">Stage</td><td>Stage de fin de BUT2 — Grid Network</td><td class="note-cell note-strong">17,27</td></tr>
+            <tr><td class="code-cell">Portfolio S4</td><td>Portfolio de fin de BUT2</td><td class="note-cell note-strong">16,00</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Semestre 5 — 2025/2026 · BUT3 en alternance</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Code</th><th>Intitulé</th><th>Note</th></tr></thead>
+          <tbody>
+            <tr><td class="code-cell">R5.01</td><td>WiFi avancé</td><td class="note-cell note-weak">8,38</td></tr>
+            <tr><td class="code-cell">R5.02</td><td>Supervision des réseaux</td><td class="note-cell note-mid">11,25</td></tr>
+            <tr><td class="code-cell">R5.03</td><td>Ingénierie de systèmes télécoms</td><td class="note-cell note-mid">10,00</td></tr>
+            <tr><td class="code-cell">R5.04</td><td>Cycle de vie d'un projet informatique</td><td class="note-cell note-pending">à venir</td></tr>
+            <tr><td class="code-cell">R5.05</td><td>Anglais : insertion professionnelle 1</td><td class="note-cell note-strong">15,00</td></tr>
+            <tr><td class="code-cell">R5.06</td><td>Expression-Communication : S'intégrer dans une organisation</td><td class="note-cell note-mid">14,00</td></tr>
+            <tr><td class="code-cell">R5.08</td><td>Gestion de projets 3 : mener un projet professionnel</td><td class="note-cell note-mid">12,62</td></tr>
+            <tr><td class="code-cell">R5.Cyber.09</td><td>Architectures sécurisées</td><td class="note-cell note-pending">à venir</td></tr>
+            <tr><td class="code-cell">R5.Cyber.11</td><td>Supervision de la sécurité</td><td class="note-cell note-pending">à venir</td></tr>
+            <tr><td class="code-cell">R5.ROM.09</td><td>Services multimédia</td><td class="note-cell note-mid">14,00</td></tr>
+            <tr><td class="code-cell">SAÉ 5.01</td><td>Concevoir, réaliser et présenter une solution technique</td><td class="note-cell note-strong">19,00</td></tr>
+            <tr><td class="code-cell">SAÉ 5.02</td><td>Piloter un projet informatique</td><td class="note-cell note-pending">à venir</td></tr>
+            <tr><td class="code-cell">SAÉ 5.Cyber.03</td><td>Sécurisation et supervision avancées d'un SI</td><td class="note-cell note-pending">à venir</td></tr>
+            <tr><td class="code-cell">SAÉ 5.ROM.03</td><td>Déployer et gérer les services ROM</td><td class="note-cell note-mid">14,00</td></tr>
+            <tr><td class="code-cell">SAÉ 5.Entreprise</td><td>Activité en entreprise (alternance Grid Network)</td><td class="note-cell note-strong">16,73</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+
+      <h2>Compétences linguistiques</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Langue</th><th>Niveau</th><th>Contexte</th></tr></thead>
+          <tbody>
+            <tr><td>Français</td><td><strong>C1</strong> (langue maternelle)</td><td>Tous contextes</td></tr>
+            <tr><td>Anglais</td><td><strong>B2</strong></td><td>Documentation technique, présentations, e-mails. Notes BUT : 14,30 (S1), 14,57 (S2), 15,28 (S3), 17,00 (S4), 15,00 (S5)</td></tr>
+            <tr><td>Arabe littéral</td><td><strong>B2</strong></td><td>Trois années de Licence LLCER, traduction et grammaire</td></tr>
+            <tr><td>Italien</td><td><strong>A1</strong></td><td>Notions, lycée à Menton</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Expériences professionnelles</h2>
+
+      <article class="exp-card">
+        <header class="exp-header">
+          <h3 class="exp-title" style="color:inherit">Apprenti coordinateur travaux</h3>
+          <span class="exp-employer">Grid Network</span>
+          <span class="exp-meta"><span>Apprentissage</span><span>Depuis sept. 2025</span><span>Vendin-le-Vieil (62)</span></span>
+        </header>
+        <ul class="dash">
+          <li>Gestion administrative et suivi des chantiers radio multi-opérateurs : préparation, suivi matériel, documentation</li>
+          <li>Création et planification des interventions via Alobees, suivi sous Excel</li>
+          <li>Rédaction de PPSPS, analyse d'APD pour chiffrage et devis, programmation et compte-rendu de VIC</li>
+          <li>Réception et contrôle du matériel radio (modules, antennes, baies)</li>
+          <li>Développement d'une application interne d'automatisation des tâches administratives</li>
+          <li>Contribution à la refonte du site web interne</li>
+        </ul>
+      </article>
+
+      <article class="exp-card">
+        <header class="exp-header">
+          <h3 class="exp-title" style="color:inherit">Stagiaire en conduite de travaux</h3>
+          <span class="exp-employer">Grid Network</span>
+          <span class="exp-meta"><span>Stage BUT2</span><span>Avril — juillet 2025 (517 h)</span><span>Note : 17,27/20</span></span>
+        </header>
+        <ul class="dash">
+          <li>Initiation à l'aménagement de sites de radiocommunication multi-opérateurs</li>
+          <li>Lecture de plans, d'APD, de CR de VIC, rédaction de PPSPS</li>
+          <li>Participation aux Visites d'Inspection Commune et observation d'interventions terrain</li>
+        </ul>
+      </article>
+
+      <article class="exp-card">
+        <header class="exp-header">
+          <h3 class="exp-title" style="color:inherit">Veilleur de nuit</h3>
+          <span class="exp-employer">Crous de Lille — Résidence universitaire</span>
+          <span class="exp-meta"><span>CDD</span><span>Depuis avril 2024</span><span>223 résidents</span></span>
+        </header>
+        <ul class="dash">
+          <li>Sécurité d'une résidence universitaire en gestion d'incidents autonome</li>
+          <li>Surveillance de la centrale SSI, identification des alarmes, réarmement</li>
+          <li>Rédaction de rapports écrits, communication par e-mail</li>
+        </ul>
+      </article>
+
+      <article class="exp-card">
+        <header class="exp-header">
+          <h3 class="exp-title" style="color:inherit">Assistant administratif</h3>
+          <span class="exp-employer">Université d'Artois — IUT de Béthune</span>
+          <span class="exp-meta"><span>CDD</span><span>Mars — avril 2024</span></span>
+        </header>
+        <ul class="dash">
+          <li>Enquête sur le devenir des diplômés DUT 2021 par démarchage téléphonique et courriel</li>
+          <li>Suivi proactif des participations au questionnaire Sphinx</li>
+        </ul>
+      </article>
+    </section>
+<nav class="pagenav" aria-label="Navigation entre chapitres">
+  <a class="pagenav-link pagenav-prev" href="index.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+    <span>
+      <span class="pagenav-label">Précédent</span>
+      <span class="pagenav-title">Accueil</span>
+    </span>
+  </a>
+  <a class="pagenav-link pagenav-next" href="referentiel.html">
+    <span>
+      <span class="pagenav-label">Suivant</span>
+      <span class="pagenav-title">Référentiel RNCP</span>
+    </span>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+  </a>
+</nav>
+</main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

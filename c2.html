@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>C2 — Connecter les usagers — Portfolio Julien Hurtebize</title>
+<meta name="description" content="Portfolio académique de Julien Hurtebize, BUT 3 R&T Cybersécurité — C2 — Connecter les usagers" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="read-progress" aria-hidden="true"></div>
+
+<div class="mobile-bar">
+  <button class="menu-toggle" aria-label="Menu">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+  </button>
+  <span class="mobile-bar-title">C2 — Connecter les usagers</span>
+  <span style="width:36px"></span>
+</div>
+
+<div class="layout">
+<aside class="sidebar" aria-label="Sommaire">
+  <div class="brand">
+    <p class="brand-eyebrow">Portfolio</p>
+    <h1 class="brand-name">Julien Hurtebize</h1>
+  </div>
+  <nav class="toc">
+    <span class="toc-section-label">PRÉSENTATION</span>
+    <a class="toc-item" href="index.html"><span>Accueil</span></a>
+    <a class="toc-item" href="parcours.html"><span>Parcours</span></a>
+    <a class="toc-item" href="referentiel.html"><span>Référentiel RNCP</span></a>
+    <a class="toc-item" href="matrice.html"><span>Matrice de correspondance</span></a>
+    <span class="toc-section-label">COMPÉTENCES CŒUR MÉTIER</span>
+    <a class="toc-item" href="c1.html"><span class="toc-code">C1</span><span>Administrer</span></a>
+    <a class="toc-item is-active" href="c2.html"><span class="toc-code">C2</span><span>Connecter</span></a>
+    <a class="toc-item" href="c3.html"><span class="toc-code">C3</span><span>Créer outils</span></a>
+    <a class="toc-item" href="c4.html"><span class="toc-code">C4</span><span>SI sécurisé</span></a>
+    <a class="toc-item" href="c5.html"><span class="toc-code">C5</span><span>Surveiller</span></a>
+    <span class="toc-section-label">AUTRES CHAPITRES</span>
+    <a class="toc-item" href="transverses.html"><span>Compétences transverses</span></a>
+    <a class="toc-item" href="avenir.html"><span>Projet professionnel</span></a>
+    <a class="toc-item" href="annexes.html"><span>Annexes</span></a>
+  </nav>
+  <div class="sidebar-footer">
+    <button class="sb-btn theme-toggle" aria-label="Thème">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/><line x1="4.93" y1="4.93" x2="6.34" y2="6.34"/><line x1="17.66" y1="17.66" x2="19.07" y2="19.07"/><line x1="2" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22" y2="12"/></svg>
+      <span>Mode jour / nuit</span>
+    </button>
+    <button class="sb-btn print-button" aria-label="Imprimer">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+      <span>Imprimer / PDF</span>
+    </button>
+  </div>
+</aside>
+
+<main class="main">
+<div class="app-bar">
+  <div class="chapter-nav" role="group" aria-label="Navigation chapitres">
+    <a class="cn-prev" href="c1.html" aria-label="Chapitre précédent" title="Chapitre précédent">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+    </a>
+    <span class="counter"><span class="cn-cur">6</span><span style="opacity:0.4">/</span><span class="cn-total">12</span></span>
+    <a class="cn-next" href="c3.html" aria-label="Chapitre suivant" title="Chapitre suivant">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+    </a>
+  </div>
+  <div class="progress-strip" data-current="5" data-total="12"></div>
+  <label class="app-search">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <input type="search" placeholder="Rechercher dans cette page…" aria-label="Rechercher" autocomplete="off" />
+    <kbd>/</kbd>
+  </label>
+</div>
+<section id="c2">
+      <header class="section-header">
+        <p class="section-numeral">Compétence 2 — bloc BC02</p>
+        <h1 class="section-title">Connecter les <em>usagers</em></h1>
+        <p class="section-lede">Déployer les supports de transmission, les équipements d'accès fixe et mobile, et les systèmes de communication.</p>
+      </header>
+
+      <div class="quote-rncp">
+        <span class="quote-label">Référentiel — BC02</span>
+        <p>Connecter les entreprises et les usagers en communiquant avec le client et les acteurs impliqués, parfois en anglais, en faisant preuve d'une démarche scientifique, en choisissant les solutions et technologies adaptées.</p>
+      </div>
+
+      <div class="ac-prog">
+        <h4>Progression sur les trois niveaux</h4>
+        <ul>
+          <li><span class="lvl">Niveau 1</span><span>AC12.01 — Décrire les éléments d'une chaîne de transmission</span><span class="badge b-acquis">Acquis</span></li>
+          <li><span class="lvl">Niveau 2</span><span>AC22.02 — Caractériser et tester un système complexe</span><span class="badge b-acquis">Acquis</span></li>
+          <li><span class="lvl">Niveau 2</span><span>AC22.01 — Caractériser une chaîne de transmission par la mesure</span><span class="badge b-acons">À consolider</span></li>
+          <li><span class="lvl">Niveau 3</span><span>AC32.01 — Déployer un système de transmission ou un réseau d'accès, fixe ou mobile</span><span class="badge b-encours">En cours BUT3</span></li>
+          <li><span class="lvl">Niveau 3</span><span>AC32.03 — Communiquer avec le client en français et en anglais</span><span class="badge b-acquis">Acquis</span></li>
+        </ul>
+      </div>
+
+      <h2>Toutes les matières contributives</h2>
+      <p>Liste exhaustive des <strong>50 ressources et SAÉ</strong> du parcours qui alimentent le bloc BC02, avec leurs notes officielles. Cette table constitue la preuve formelle de la contribution académique au bloc ; les apprentissages critiques de niveau 3 développés plus bas sont l'expression de cette accumulation.</p>
+      <div class="table-wrap">
+        <table class="matieres-bloc">
+<thead><tr><th>Code</th><th>Intitulé</th><th>Sem.</th><th>Note</th></tr></thead><tbody>
+<tr>
+<td class="code-cell">R1.01</td>
+<td>Initiation aux réseaux informatiques</td>
+<td class="center">S1</td>
+<td class="note-cell note-weak">7,60</td>
+</tr>
+<tr>
+<td class="code-cell">R1.03</td>
+<td>Réseaux locaux et équipements actifs</td>
+<td class="center">S1</td>
+<td class="note-cell note-weak">8,67</td>
+</tr>
+<tr>
+<td class="code-cell">R1.04</td>
+<td>Fondamentaux de l'électronique analogique</td>
+<td class="center">S1</td>
+<td class="note-cell note-weak">9,18</td>
+</tr>
+<tr>
+<td class="code-cell">R1.05</td>
+<td>Supports de transmission pour les réseaux locaux</td>
+<td class="center">S1</td>
+<td class="note-cell note-weak">6,50</td>
+</tr>
+<tr>
+<td class="code-cell">R1.06</td>
+<td>Architecture des systèmes numériques et informatiques</td>
+<td class="center">S1</td>
+<td class="note-cell note-weak">7,00</td>
+</tr>
+<tr>
+<td class="code-cell">R1.10</td>
+<td>Anglais général de communication</td>
+<td class="center">S1</td>
+<td class="note-cell note-strong">14,30</td>
+</tr>
+<tr>
+<td class="code-cell">R1.11</td>
+<td>Expression-Culture-Communication 1</td>
+<td class="center">S1</td>
+<td class="note-cell note-strong">15,00</td>
+</tr>
+<tr>
+<td class="code-cell">R1.12</td>
+<td>Projet Personnel et Professionnel S1</td>
+<td class="center">S1</td>
+<td class="note-cell note-strong">14,00</td>
+</tr>
+<tr>
+<td class="code-cell">R1.13</td>
+<td>Mathématiques du signal</td>
+<td class="center">S1</td>
+<td class="note-cell note-mid">10,67</td>
+</tr>
+<tr>
+<td class="code-cell">R1.14</td>
+<td>Mathématiques des transmissions</td>
+<td class="center">S1</td>
+<td class="note-cell note-mid">12,50</td>
+</tr>
+<tr>
+<td class="code-cell">R1.15</td>
+<td>Gestion de projet</td>
+<td class="center">S1</td>
+<td class="note-cell note-mid">11,88</td>
+</tr>
+<tr>
+<td class="code-cell">SAÉ 12</td>
+<td>S'initier aux réseaux informatiques</td>
+<td class="center">S1</td>
+<td class="note-cell note-strong">17,67</td>
+</tr>
+<tr>
+<td class="code-cell">SAÉ 13</td>
+<td>Découvrir un dispositif de transmission</td>
+<td class="center">S1</td>
+<td class="note-cell note-mid">12,00</td>
+</tr>
+<tr>
+<td class="code-cell">R2.01</td>
+<td>Technologie de l'Internet</td>
+<td class="center">S2</td>
+<td class="note-cell note-strong">15,75</td>
+</tr>
+<tr>
+<td class="code-cell">R2.04</td>
+<td>Initiation à la téléphonie d'entreprise</td>
+<td class="center">S2</td>
+<td class="note-cell note-weak">5,65</td>
+</tr>
+<tr>
+<td class="code-cell">R2.05</td>
+<td>Signaux et systèmes pour les transmissions</td>
+<td class="center">S2</td>
+<td class="note-cell note-weak">7,11</td>
+</tr>
+<tr>
+<td class="code-cell">R2.06</td>
+<td>Numérisation de l'information</td>
+<td class="center">S2</td>
+<td class="note-cell note-weak">6,00</td>
+</tr>
+<tr>
+<td class="code-cell">R2.10</td>
+<td>Anglais de communication et anglais technique</td>
+<td class="center">S2</td>
+<td class="note-cell note-strong">14,57</td>
+</tr>
+<tr>
+<td class="code-cell">R2.11</td>
+<td>Expression-Culture-Communication 2</td>
+<td class="center">S2</td>
+<td class="note-cell note-strong">15,75</td>
+</tr>
+<tr>
+<td class="code-cell">R2.12</td>
+<td>Projet Personnel et Professionnel : formalisation</td>
+<td class="center">S2</td>
+<td class="note-cell note-strong">17,50</td>
+</tr>
+<tr>
+<td class="code-cell">R2.13</td>
+<td>Mathématiques des systèmes numériques</td>
+<td class="center">S2</td>
+<td class="note-cell note-weak">9,21</td>
+</tr>
+<tr>
+<td class="code-cell">R2.14</td>
+<td>Analyse mathématique des signaux</td>
+<td class="center">S2</td>
+<td class="note-cell note-weak">6,50</td>
+</tr>
+<tr>
+<td class="code-cell">SAÉ 21</td>
+<td>Construire un réseau informatique pour une petite structure</td>
+<td class="center">S2</td>
+<td class="note-cell note-mid">13,45</td>
+</tr>
+<tr>
+<td class="code-cell">SAÉ 22</td>
+<td>Mesurer et caractériser un signal ou un système</td>
+<td class="center">S2</td>
+<td class="note-cell note-mid">11,85</td>
+</tr>
+<tr>
+<td class="code-cell">SAÉ 24</td>
+<td>Projet intégratif de S2</td>
+<td class="center">S2</td>
+<td class="note-cell note-weak">9,95</td>
+</tr>
+<tr>
+<td class="code-cell">R3.01</td>
+<td>Réseaux de campus</td>
+<td class="center">S3</td>
+<td class="note-cell note-weak">5,62</td>
+</tr>
+<tr>
+<td class="code-cell">R3.02</td>
+<td>Réseaux opérateurs</td>
+<td class="center">S3</td>
+<td class="note-cell note-mid">10,75</td>
+</tr>
+<tr>
+<td class="code-cell">R3.03</td>
+<td>Services réseaux avancés</td>
+<td class="center">S3</td>
+<td class="note-cell note-weak">8,50</td>
+</tr>
+<tr>
+<td class="code-cell">R3.05</td>
+<td>Chaînes de transmissions numériques</td>
+<td class="center">S3</td>
+<td class="note-cell note-weak">9,40</td>
+</tr>
+<tr>
+<td class="code-cell">R3.06</td>
+<td>Fibres optiques et propagation</td>
+<td class="center">S3</td>
+<td class="note-cell note-weak">4,20</td>
+</tr>
+<tr>
+<td class="code-cell">R3.07</td>
+<td>Réseaux d'accès</td>
+<td class="center">S3</td>
+<td class="note-cell note-mid">11,25</td>
+</tr>
+<tr>
+<td class="code-cell">R3.11</td>
+<td>Anglais professionnel 1</td>
+<td class="center">S3</td>
+<td class="note-cell note-strong">15,28</td>
+</tr>
+<tr>
+<td class="code-cell">R3.14</td>
+<td>Analyse de Fourier</td>
+<td class="center">S3</td>
+<td class="note-cell note-weak">6,80</td>
+</tr>
+<tr>
+<td class="code-cell">SAÉ 3.01</td>
+<td>Mettre en œuvre un système de transmission</td>
+<td class="center">S3</td>
+<td class="note-cell note-mid">12,50</td>
+</tr>
+<tr>
+<td class="code-cell">SAÉ 3.Cyber.03</td>
+<td>Concevoir un réseau informatique sécurisé multi-sites</td>
+<td class="center">S3</td>
+<td class="note-cell note-weak">8,50</td>
+</tr>
+<tr>
+<td class="code-cell">R4.01</td>
+<td>Infrastructures de sécurité</td>
+<td class="center">S4</td>
+<td class="note-cell note-mid">10,50</td>
+</tr>
+<tr>
+<td class="code-cell">R4.02</td>
+<td>Transmissions avancées</td>
+<td class="center">S4</td>
+<td class="note-cell note-weak">5,67</td>
+</tr>
+<tr>
+<td class="code-cell">R4.03</td>
+<td>Physique des télécoms</td>
+<td class="center">S4</td>
+<td class="note-cell note-weak">7,25</td>
+</tr>
+<tr>
+<td class="code-cell">R4.04</td>
+<td>Réseaux cellulaires</td>
+<td class="center">S4</td>
+<td class="note-cell note-weak">5,75</td>
+</tr>
+<tr>
+<td class="code-cell">R4.06</td>
+<td>Anglais professionnel 2</td>
+<td class="center">S4</td>
+<td class="note-cell note-strong">17,00</td>
+</tr>
+<tr>
+<td class="code-cell">Stage</td>
+<td>Stage de fin de BUT2 — Grid Network</td>
+<td class="center">S4</td>
+<td class="note-cell note-strong">17,27</td>
+</tr>
+<tr>
+<td class="code-cell">R5.01</td>
+<td>WiFi avancé</td>
+<td class="center">S5</td>
+<td class="note-cell note-weak">8,38</td>
+</tr>
+<tr>
+<td class="code-cell">R5.03</td>
+<td>Ingénierie de systèmes télécoms</td>
+<td class="center">S5</td>
+<td class="note-cell note-mid">10,00</td>
+</tr>
+<tr>
+<td class="code-cell">R5.05</td>
+<td>Anglais : insertion professionnelle 1</td>
+<td class="center">S5</td>
+<td class="note-cell note-strong">15,00</td>
+</tr>
+<tr>
+<td class="code-cell">R5.Cyber.09</td>
+<td>Architectures sécurisées</td>
+<td class="center">S5</td>
+<td class="note-cell note-pending">à venir</td>
+</tr>
+<tr>
+<td class="code-cell">R5.ROM.09</td>
+<td>Services multimédia</td>
+<td class="center">S5</td>
+<td class="note-cell note-strong">14,00</td>
+</tr>
+<tr>
+<td class="code-cell">SAÉ 5.01</td>
+<td>Concevoir, réaliser et présenter une solution technique</td>
+<td class="center">S5</td>
+<td class="note-cell note-strong">19,00</td>
+</tr>
+<tr>
+<td class="code-cell">SAÉ 5.Cyber.03</td>
+<td>Sécurisation et supervision avancées</td>
+<td class="center">S5</td>
+<td class="note-cell note-pending">à venir</td>
+</tr>
+<tr>
+<td class="code-cell">SAÉ 5.ROM.03</td>
+<td>Déployer et gérer les services ROM</td>
+<td class="center">S5</td>
+<td class="note-cell note-strong">14,00</td>
+</tr>
+<tr>
+<td class="code-cell">SAÉ 5.Entreprise</td>
+<td>Activité en entreprise (alternance Grid Network)</td>
+<td class="center">S5</td>
+<td class="note-cell note-strong">16,73</td>
+</tr>
+</tbody>
+        </table>
+      </div>
+
+
+      <article class="ac-card">
+        <header class="ac-header">
+          <span class="ac-code">AC32.01</span>
+          <p class="ac-title">Déployer un système de transmission ou un réseau d'accès, fixe ou mobile.</p>
+          <span class="ac-level">Niveau 3</span>
+        </header>
+        <dl class="six-q">
+          <div><dt>Ce que j'ai fait</dt><dd>Sur cet AC, deux types d'expériences se complètent. Côté académique, la SAÉ 3.01 a porté sur la conception d'une chaîne de modulation HF avec <strong>GNU Radio Companion</strong> et un transceiver SDR <strong>ADALM-Pluto</strong> : modulations AM, FM, RDS, intégration de VLC pour le transport audio/vidéo. Côté professionnel, je participe depuis dix-huit mois à la coordination de chantiers de déploiement chez Grid Network, aménageur de sites de radiocommunication multi-opérateurs.</dd></div>
+          <div><dt>Pourquoi</dt><dd>La SAÉ 3.01 visait à matérialiser ce qu'est concrètement une chaîne de transmission. Côté Grid, l'ambition est différente : comprendre l'envers du décor du réseau mobile français, là où les opérateurs ne déploient pas eux-mêmes leurs antennes mais s'appuient sur des aménageurs comme Grid. Connaître ce maillon est précieux pour qui veut travailler dans le secteur télécom.</dd></div>
+          <div><dt>Comment</dt><dd>SAÉ 3.01 : graphe de modulation dans GNU Radio Companion, paramétrage des codecs H.264 et AAC, validation par analyse spectrale en bande GSM 1800. Chez Grid : analyse de l'APD, vérification des coordonnées et des contraintes terrain, rédaction du PPSPS, programmation des VIC, suivi de la réception du matériel radio (modules, antennes, baies).</dd></div>
+          <div><dt>Mes difficultés</dt><dd>Mes notes en physique du signal sont restées basses (R3.06 Fibres optiques 4,20 ; R4.02 Transmissions avancées 5,67 ; R4.03 Physique télécoms 7,25 ; R4.04 Réseaux cellulaires 5,75). Le formalisme mathématique des modulations et de la propagation guidée m'a coûté. C'est un déficit de socle mathématique préalable, lié à ma formation antérieure en sciences humaines.</dd></div>
+          <div><dt>Ce que j'en ai appris</dt><dd>Les notes faibles n'invalident pas la compréhension opérationnelle. Le 17,27 obtenu à mon stage Grid Network dans le même semestre que les notes faibles de physique le confirme : sur un chantier, ce qui compte c'est savoir lire un APD, identifier une non-conformité, communiquer avec le sous-traitant. C'est ce que je sais faire. L'expérience de terrain donne par ailleurs du sens aux abstractions des cours.</dd></div>
+          <div><dt>Ce que je ferais autrement</dt><dd>Reprendre les fondamentaux mathématiques (séries de Fourier, complexes en traitement du signal, probabilités) en autoformation parallèle avant de réattaquer la physique du signal. Travailler davantage avec des outils de simulation (Octave, Matlab) plutôt qu'avec le seul formalisme papier-crayon.</dd></div>
+        </dl>
+        <div class="trace">
+          <figure>
+            <img src="images/trace-spectre-gsm.png" alt="Capture d'analyse spectrale GSM 1800" />
+            <figcaption><strong>Trace 02 — Analyse spectrale GSM 1800 MHz</strong>Balayage de la bande 1805–1875 MHz lors d'un TP. Spectre instantané, moyenne et Max Hold sur la fenêtre supérieure ; puissance par canal opérateur (Telekom, E-Plus, O2, Vodafone) sur la fenêtre inférieure. Cette mesure illustre l'AC22.02 « Caractériser et tester un système complexe » : on observe la cohabitation effective de quatre opérateurs sur la même bande et leurs niveaux respectifs.</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <div class="synthesis">
+        <p>Le BC02 est celui où mes notes académiques sont les plus contrastées. Les ressources de pure physique m'ont fragilisé. Mais la SAÉ 3.01 (12,50), la SAÉ 5.ROM.03 (14,00) et surtout les notes professionnelles chez Grid (17,27 en stage, 16,73 en alternance S5) montrent qu'en situation appliquée, je sais mobiliser ce qu'il faut des concepts pour aboutir à un résultat opérationnel. Mon expérience quotidienne du déploiement de réseaux d'accès mobiles est rare en sortie de BUT, et constitue mon principal atout sur cette compétence.</p>
+      </div>
+    </section>
+<nav class="pagenav" aria-label="Navigation entre chapitres">
+  <a class="pagenav-link pagenav-prev" href="c1.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+    <span>
+      <span class="pagenav-label">Précédent</span>
+      <span class="pagenav-title">C1 · Administrer</span>
+    </span>
+  </a>
+  <a class="pagenav-link pagenav-next" href="c3.html">
+    <span>
+      <span class="pagenav-label">Suivant</span>
+      <span class="pagenav-title">C3 · Créer outils</span>
+    </span>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+  </a>
+</nav>
+</main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
